@@ -51,9 +51,12 @@ Volatility Adjusted Portfolio has **OUTPERFORMED** both Index and the Price mome
 
 **NOTE:-**
 1) These results are **survivorship bias-free**.Check Nifty_Constituents file for the same.
-Survivorship bias happens when we take only the stocks into account that are currently in NIFTY 50 and dont take into account the stocks which have been removed or delisted.  
+Survivorship bias happens when we take only the stocks into account that are currently in NIFTY 50 and dont take into account the stocks which have been removed or delisted.
 
-2) This is not investment advice of any kind.Just for Learning purposes.
+
+Optimization file helps you to find the best combination of lookback_period and number of stocks to maximize each of CAGR,Sharpe Ratio and minimize Max DD.
+
+3) This is not investment advice of any kind.Just for Learning purposes.
 
 
 
