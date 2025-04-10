@@ -1,5 +1,5 @@
 # momentum-investing-methods
-Momentum Investing Backtesting and Simulation using Pure price based Momentum and Volatility-Adjusted Returns on NIFTY 50.
+Momentum Investing Backtesting and Simulation using Pure price based Momentum and Volatility-Adjusted Returns on NIFTY 50.(Survivorship Bias-Free)
 
 This backtest is done from **2015 to 2025**.
 
@@ -47,6 +47,13 @@ Volatility Adjusted: 1.3406
 Price Momentum has **UNDERPERFORMED** the Index in terms of CAGR but **OUTPERFORMED** in terms of Sharpe Ratio, Maximum Drawwdown.  
 
 Volatility Adjusted Portfolio has **OUTPERFORMED** both Index and the Price momentum portfolio in all aspects showcasing higher CAGR, higher Sharpe ratio, lower Max Drawdown.
+
+
+**NOTE:-**
+1) These results are **survivorship bias-free**.Check Nifty_Constituents file for the same.
+Survivorship bias happens when we take only the stocks into account that are currently in NIFTY 50 and dont take into account the stocks which have been removed or delisted.  
+
+2) This is not investment advice of any kind.Just for Learning purposes.
 
 
 
