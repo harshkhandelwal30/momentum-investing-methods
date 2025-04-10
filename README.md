@@ -13,7 +13,7 @@ There are 2 ways of Stocks Selection discussed here.
 1) **Pure Price Based Momentum**
 Rank Stocks according to **% Rate Of Change in Price (ROC**) in the decided lookback period and select top-n stocks.
 
-Also check out the **Momentum Dashboard** from the repositories.It combines 3 timeframes 1M,3M,6M.
+Also check out the **Momentum Dashboard** repository.It combines 3 timeframes 1M,3M,6M.
 Ranks the stocks based on ROC and gives them a score according to the percentile.
 Then displays stocks having ranks > 90 in all 3 timeframes.
 
