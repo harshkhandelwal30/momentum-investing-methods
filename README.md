@@ -17,33 +17,36 @@ Also check out the **Momentum Dashboard** repository.It combines 3 timeframes 1M
 Ranks the stocks based on ROC and gives them a score according to the percentile.
 Then displays stocks having ranks > 90 in all 3 timeframes.
 
-**2) Volatility-Adjusted Returns**
-Rank Stocks according to a **volatility based score** in the decided lookback period and select top-n stocks.
+2) **Volatility-Adjusted Returns**
+Rank Stocks according to a **volatility based score** in the decided lookback period and select top-n stocks.  
 **Score = ROC/ Std dev**
 This finds out stocks displaying highest momentum but also with less standard deviation (less volatility) in those returns.
 
 RESULTS:-
-**CAGR**
-Index: 0.1312
-Price Momentum: 0.1123
+
+**CAGR**  
+Index: 0.1312  
+Price Momentum: 0.1123  
 Volatility Adjusted: 0.1578
 
-**Max Drawdown**
-Index: 0.2934
-Price Momentum: 0.2067
+**Max Drawdown**  
+Index: 0.2934  
+Price Momentum: 0.2067  
 Volatility Adjusted: 0.0900
 
-**Annual Volatility**
-Index: 0.1631
-Price Momentum: 0.1478
+**Annual Volatility**  
+Index: 0.1631  
+Price Momentum: 0.1478  
 Volatility Adjusted: 0.1573
 
-**Sharpe Ratio**
-Index: 0.5366
-Price Momentum: 0.9544
+**Sharpe Ratio**  
+Index: 0.5366  
+Price Momentum: 0.9544  
 Volatility Adjusted: 1.3406
 
-Volatility Adjusted Portfolio has outperformed both Index and the Price momentum portfolio in all aspects showccasing higher CAGR, higher Sharpe ratio, lower Max Drawdown.
+Price Momentum has **UNDERPERFORMED** the Index in terms of CAGR but **OUTPERFORMED** in terms of Sharpe Ratio, Maximum Drawwdown.  
+
+Volatility Adjusted Portfolio has **OUTPERFORMED** both Index and the Price momentum portfolio in all aspects showcasing higher CAGR, higher Sharpe ratio, lower Max Drawdown.
 
 
 
